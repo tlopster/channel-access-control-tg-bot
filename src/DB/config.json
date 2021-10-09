@@ -1,0 +1,57 @@
+{
+	"master": {
+		"options": {
+			"token": ""
+		}
+	},
+	"qiwi": {
+		"options": {
+			"token": ""
+		}
+	},
+	"telegram": {
+		"channel": {
+			"id": 0,
+			"title": "=",
+			"settings": {
+				"inviteLink": {
+					"access": {
+						"time": 900000,
+						"inviteCount": 1
+					}
+				}
+			}
+		}
+	},
+	"MongoDB": {
+        "login": "",
+        "password": "",
+        "name": "",
+        "address": ""
+    },
+    "express": {
+    	"ports": [
+    		80
+    	]
+    },
+    "intervals": {
+    	"access": {
+    		"time": 2000
+    	}
+    },
+    "allowUsers": [],
+    "prices": {
+    	"forever": 750,
+		"limited": [
+			{
+    			"time": 2592000,
+    			"price": 300,
+    			"notify": [
+    				1728000,
+    				2160000,
+    				2505600
+    			]
+			}
+    	]
+    }
+}

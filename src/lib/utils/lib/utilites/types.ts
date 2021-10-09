@@ -1,0 +1,15 @@
+export type TtypeofResponse =
+    | "undefined"
+    | "boolean"
+    | "number"
+    | "string"
+    | "bigint"
+    | "symbol"
+    | "null"
+    | "object"
+    | "array"
+    | "function"
+    | "asyncFunction"
+    | "generatorFunction"
+    | "generatorAsyncFunction"
+    | "promise";

@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "rootDir": "./src/",
+        "outDir": "./dist/",
+        "target": "ES2019",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "declaration": false,
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "noImplicitAny": true,
+        "lib": ["ES2021"],
+        "useUnknownInCatchVariables": false
+    },
+    "include": ["./src"]
+}
