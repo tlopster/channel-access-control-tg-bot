@@ -7,6 +7,10 @@ A bot for selling access to your private telegram channel.
 sudo apt-get update
 sudo apt-get install nodejs npm
 ```
+#### Installing TypeScript
+```sh
+sudo npm install typescript -g
+```
 
 ### Setup
 1. Clone this repository
